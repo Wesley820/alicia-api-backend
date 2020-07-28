@@ -102,7 +102,10 @@ In order to be able to send messages it is necessary to have a session id with t
 - Body
 
 ```json
-{
-  "session_id": "19bc5186-2e46-46d4-8f7b-e65597fa6092"
-}
+[
+  {
+    "response_type": "text",
+    "text": "Olá, em que posso te ajudar?"
+  }
+]
 ```
